@@ -5,7 +5,7 @@ curent_floor = 0
 count = 0
 totalPlay = 0
 
-# số lần chạy là 100000
+# số lần chạy là 10000000
 for i in range(10000000):
 
     count += 1
@@ -36,7 +36,7 @@ for i in range(10000000):
         curent_floor = 0
         totalPlay += 1
         c = c+1
-    # kiểm tra thua cuộc(Khi thua phải rết tất cả về 0 và tính là 1 lượt chơi)
+    # kiểm tra thua cuộc(Khi thua phải reset tất cả về 0 và tính là 1 lượt chơi)
     if (curent_floor < 60) and (count > 100):
         count = 0
         curent_floor = 0
